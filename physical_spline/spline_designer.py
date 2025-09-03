@@ -1,8 +1,9 @@
 import numpy as np
 import scipy
 
-import utils.lgs_fitting_elements as lgs_fitting_elements, utils.lgs_regularisation_elements as lgs_regularisation_elements
-from utils.spline_evaluator import HeadingSplineShell, PhysicalSpline
+from .utils import lgs_fitting_elements
+from .utils import lgs_regularisation_elements
+from .utils.spline_evaluator import HeadingSplineShell, PhysicalSpline
 
 
 class SplineDesigner:

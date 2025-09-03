@@ -1,11 +1,11 @@
 import numpy as np
 import scipy
 
-from utils.matrix_operations import (
+from .matrix_operations import (
     multiply_each_row_of_the_matrix_by_the_nth_vector_entry,
     sum_up_dyadic_product_of_row_vectors,
 )
-from utils.spline_evaluator import (
+from .spline_evaluator import (
     PhysicalSpline,
     eval_all_base_all_time,
 )

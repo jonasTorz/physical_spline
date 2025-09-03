@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+physical_spline/__init__.py
+physical_spline/spline_designer.py
+physical_spline.egg-info/PKG-INFO
+physical_spline.egg-info/SOURCES.txt
+physical_spline.egg-info/dependency_links.txt
+physical_spline.egg-info/requires.txt
+physical_spline.egg-info/top_level.txt
+physical_spline/utils/lgs_fitting_elements.py
+physical_spline/utils/lgs_regularisation_elements.py
+physical_spline/utils/matrix_operations.py
+physical_spline/utils/simple_fitting.py
+physical_spline/utils/spline_evaluator.py

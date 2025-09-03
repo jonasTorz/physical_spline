@@ -1,14 +1,14 @@
 import numpy as np
 
-from utils.matrix_operations import (
+from .matrix_operations import (
     generate_1d_weighted_dyadic_product_sum,
     generate_2d_weighted_dyadic_product_and_sum_them_up,
     multiply_each_row_of_the_matrix_by_the_nth_vector_entry,
     multiply_each_row_vector_with_weight_and_sum_them_up,
     sum_up_dyadic_product_of_row_vectors,
 )
-from utils.simple_fitting import estimate_locale_heading
-from utils.spline_evaluator import (
+from .simple_fitting import estimate_locale_heading
+from .spline_evaluator import (
     PhysicalSpline,
     eval_all_base_all_time,
 )
