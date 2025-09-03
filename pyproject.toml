@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "physical_spline"
-version = "0.1.0"
+version = "0.1.1"
 description = "Physical spline designer and evaluator"
 authors = [{name = "Jonas Torzewski"}]
 readme = "README.md"
